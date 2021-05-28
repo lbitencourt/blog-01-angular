@@ -1,0 +1,8 @@
+<h1>Últimas do blog!</h1>
+<div class="blog-list">
+  <ul>
+    <li *ngFor="let blog of blogs">
+      <app-blog-item [blog]="blog"></app-blog-item>
+    </li>
+  </ul>
+</div>
